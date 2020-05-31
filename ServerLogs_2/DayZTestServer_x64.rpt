@@ -1,0 +1,636 @@
+
+
+=====================================================================
+== D:\DayZServers\TheCommunity_enochTest\DayZTestServer_x64.exe
+== "D:\DayZServers\TheCommunity_enochTest\DayZTestServer_x64.exe"  -port=2442 "-mod=@CF;@Community-Online-Tools;@BuildAnywhere;@BaseBuildingLogs;@Trader;@BaseBuildingPlus;@Durable_Suppressors;@VPPMap;@Ear-Plugs;@Catch_Rain;@DayZ-Expansion-Notifications;@DayZ-Expansion-Chat;@No_Shoe_Damage;@Ammo_Making;@Banking;@BuilderItems;@Camosplus;@CannabisPlus;@CheckIdentity;@Code_Lock;@Dayz_Navigation;@FIDOv4;@FlipTransport;@GoreZ;@IRP;@KillFeed;@NoVehicleDamage;@PartyMe;@Modular_Vest_System;@MuchStuffPack;@SWP;@BreachingCharge;@BBPBreachCharge;@MunghardsItempack;@NDVPPM;@Next_Days;@Notes;@SQUAD_MSF-C;@Zeroy-FishingZ;@OP_BaseItems;@Base_Storage;@SIX-DayZ-Auto-Run;@Growler;" -config=D:\DayZServers\TheCommunity_enochTest\TheCommunityDZTest.cfg -profiles=TheCommunityServer -BEPath=D:\DayZServers\TheCommunity_enochTest\battleye -filePatching -adminlog -netlog -freezecheck -scrAllowFileWrite
+=====================================================================
+Exe timestamp: 2020/04/26 15:56:05
+Current time:  2020/05/30 18:37:16
+
+Version 1.07.153006
+18:37:16.402 [Inputs] Loading inputs default "bin/constants.xml"
+18:37:16.402 [Inputs] Loading inputs default "bin/specific.xml"
+18:37:16.402 !!! [Inputs] Invalid input name used "UAUIInspectItem" for context "ui" in "bin/specific.xml"
+18:37:16.402 !!! [Inputs] Attempt to register duplicate Modded-Inputs file "VanillaPPMap/data/modded_Inputs.xml"
+18:37:16.402 [Inputs] Loading inputs default "EarPlugs\data\inputs.xml"
+18:37:16.402 [Inputs] Loading inputs default "JM/COT/scripts/Data/Inputs.xml"
+18:37:16.402 [Inputs] Loading inputs default "KillFeed/inputs/Inputs.xml"
+18:37:16.402 [Inputs] Loading inputs default "partyme/scripts/partyme_inputs.xml"
+18:37:16.402 [Inputs] Loading inputs default "VanillaPPMap/data/modded_Inputs.xml"
+18:37:16.402 [Inputs] Loading inputs default "NextDays/data/NextDays_Inputs.xml"
+18:37:16.418 [Inputs] Loading inputs default "A3_UI_F/Scripts/Inputs.xml"
+18:37:16.418 [Inputs] Loading inputs default "BaseBuildingPlus/Scripts/Data/Inputs.xml"
+18:37:16.418 [Inputs] Loading inputs default "VanillaPPMap/data/modded_Inputs.xml"
+18:37:16.418 !!! [Inputs] Attempt to register duplicate input "UAOpenVPPMap"
+18:37:16.418 !!! [Inputs] Attempt to register duplicate input "UAToggleVPPMap3DMarkers"
+18:37:16.418 [Inputs] Loading inputs cfg "TheCommunityServer\Users\Survivor\Server.core.xml"
+18:37:16.418 [Inputs] Exporting inputs cfg "TheCommunityServer\Users\Survivor\Server.core.xml"
+18:37:16.871 !!! [Inputs] Attempt to register "PMHideShowTrackers" input twice
+18:38:06.45 [CE][Hive] :: Initializing OFFLINE
+18:38:06.45 [CE][Hive] :: Loading core data ... 
+18:38:06.45 [CE][CoreData] :: 7 root classes, 19 defaults, 0 updaters...
+18:38:12.577 [CE][RegisterBind] :: 0 classes binded...
+18:38:12.577 [CE][RegisterConfig] :: 10213 config classes registered, 0 sub-counters...
+18:38:12.577 [CE][Hive] :: Loading map data ... 
+18:38:12.624 !!! [CE] :: Unknown category: 'vehicleparts'.
+18:38:12.624 [CE][LoadPrototype] :: loaded 330 prototypes
+18:38:12.624   702 containers, 9116 points
+18:38:12.624   24 dispatches, 90 proxies
+18:38:12.624 !!! [CE][LoadPrototype] 12 groups have no points...
+18:38:12.624 !!![CE][LoadPrototype]  3 groups have wrong points...
+18:38:12.624 [CE][LoadPrototype] :: last group name: Land_Lunapark_Autodrome...
+18:38:12.639 [CE][LoadPrototype] :: loaded 0 prototypes
+18:38:12.639   0 containers, 0 points
+18:38:12.639   0 dispatches, 0 proxies
+18:38:12.639 [CE][LoadPrototype] :: last group name: PathD_7100...
+18:38:12.936 [CE][LoadMap] "Group" :: loaded 5086 groups, largest group range: 26.9
+18:38:12.936 [CE][LoadMap] "Dirt" :: loaded 0 groups, largest group range: 26.9
+18:38:13.45 [CE][Links] found 354 total links between groups, of 5086
+18:38:13.45 [CE][LoadClusters] "Cluster" :: Loading files...
+18:38:13.249 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 4 types, 50000 instances
+18:38:13.467 [CE][LoadClusters] :: file: "mapgroupcluster01", 4 types, 50000 instances
+18:38:13.686 [CE][LoadClusters] :: file: "mapgroupcluster02", 4 types, 50000 instances
+18:38:13.905 [CE][LoadClusters] :: file: "mapgroupcluster03", 4 types, 50000 instances
+18:38:14.14 [CE][LoadClusters] :: file: "mapgroupcluster04", 4 types, 21297 instances
+18:38:14.14 [CE][Storage] ver:21 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\types.bin"
+18:38:14.14 [CE][Storage] ver:21 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\types.001"
+18:38:14.14 [CE][Storage] ver:21 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\types.002"
+18:38:14.14 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\types.bin".
+18:38:14.233 [CE][offlineDB] :: Loaded 33 dynamic events 215 total types 0 total positions.
+18:38:14.296 [CE][Storage] ver:21 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\events.bin"
+18:38:14.296 [CE][Storage] ver:21 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\events.001"
+18:38:14.296 [CE][Storage] ver:21 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\events.002"
+18:38:14.296 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\events.bin".
+18:38:14.296 [CE][DynamicEvent] Load  Events:[33] Primary spawners: 33 Secondary spawners: 1
+18:38:14.296 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\vehicles.bin"
+18:38:14.296 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\vehicles.001"
+18:38:14.296 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\vehicles.002"
+18:38:14.296 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\vehicles.bin" 112 items.
+18:38:14.421   112 items loaded.
+18:38:14.421 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_000.bin"
+18:38:14.436 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_000.001"
+18:38:14.436 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_000.002"
+18:38:14.436 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_000.bin" 369 items.
+18:38:14.686   369 items loaded.
+18:38:14.686 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_001.bin"
+18:38:14.686 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_001.001"
+18:38:14.686 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_001.002"
+18:38:14.686 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_001.bin" 2029 items.
+18:38:15.374   2029 items loaded.
+18:38:15.374 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_002.bin"
+18:38:15.374 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_002.001"
+18:38:15.374 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_002.002"
+18:38:15.374 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_002.bin" 610 items.
+18:38:15.577   610 items loaded.
+18:38:15.577 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_003.bin"
+18:38:15.577 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_003.001"
+18:38:15.577 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_003.002"
+18:38:15.577 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_003.bin" 1153 items.
+18:38:15.968   1153 items loaded.
+18:38:15.968 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_004.bin"
+18:38:15.968 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_004.001"
+18:38:15.968 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_004.002"
+18:38:15.968 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_004.bin" 1534 items.
+18:38:16.577   1534 items loaded.
+18:38:16.577 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_005.bin"
+18:38:16.577 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_005.001"
+18:38:16.577 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_005.002"
+18:38:16.577 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_005.bin" 1947 items.
+18:38:17.186   1947 items loaded.
+18:38:17.186 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_006.bin"
+18:38:17.186 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_006.001"
+18:38:17.186 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_006.002"
+18:38:17.186 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_006.bin" 1025 items.
+18:38:17.608   1025 items loaded.
+18:38:17.608 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_007.bin"
+18:38:17.608 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_007.001"
+18:38:17.608 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_007.002"
+18:38:17.608 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_007.bin" 1285 items.
+18:38:18.30   1285 items loaded.
+18:38:18.30 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_008.bin"
+18:38:18.30 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_008.001"
+18:38:18.46 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_008.002"
+18:38:18.46 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_008.bin" 1086 items.
+18:38:18.374   1086 items loaded.
+18:38:18.374 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_009.bin"
+18:38:18.374 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_009.001"
+18:38:18.374 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_009.002"
+18:38:18.374 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_009.bin" 1010 items.
+18:38:18.718   1010 items loaded.
+18:38:18.718 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_010.bin"
+18:38:18.718 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_010.001"
+18:38:18.718 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_010.002"
+18:38:18.718 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_010.bin" 2478 items.
+18:38:19.421   2478 items loaded.
+18:38:19.421 [CE][Storage] ver:24 stamp:53710, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_011.bin"
+18:38:19.421 [CE][Storage] ver:24 stamp:53708, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_011.001"
+18:38:19.421 [CE][Storage] ver:24 stamp:53709, valid:yes, name:"mpmissions\TheCommunity.enoch\storage_666\data\dynamic_011.002"
+18:38:19.421 [CE][Storage] Restoring file "mpmissions\TheCommunity.enoch\storage_666\data\dynamic_011.bin" 356 items.
+18:38:19.530   356 items loaded.
+18:38:19.546 [CE][Hive] :: Storage load took:5.25 seconds, recovery stamp:53710
+18:38:19.546   entity: 15657, building: 0
+18:38:19.546   no lifetime: 48
+18:38:19.561 [CE][Hive] :: Initializing ... 
+18:38:19.561 [CE][InitializeMap] :: initialized: 0
+18:38:19.561 [CE][Hive] :: Initializing spawners ... 
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [0] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [1] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [2] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [3] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [4] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [5] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [6] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [7] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [8] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [9] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [10] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [11] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [12] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [13] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [14] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [15] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [16] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [17] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [18] causing search overtime: "PlateCarrierVest"
+18:38:21.405 [CE][LootRespawner] (PRIDummy) :: Item [19] causing search overtime: "PlateCarrierVest"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [0] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [1] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [2] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [3] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [4] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [5] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [6] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [7] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [8] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [9] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [10] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [11] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [12] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [13] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [14] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.687 [CE][LootRespawner] (PRIDummy) :: Item [15] is hard to place, performance drops: "PressVest_Blue"
+18:38:21.718 [CE][LootRespawner] (PRIDummy) :: Item [16] is hard to place, performance drops: "MSFCBeerZhigulevskoeBarnoe"
+18:38:21.765 [CE][LootRespawner] (PRIDummy) :: Item [17] is hard to place, performance drops: "FP4_DrMask"
+18:38:21.796 [CE][LootRespawner] (PRIDummy) :: Item [18] is hard to place, performance drops: "Bear_White"
+18:38:21.890 [CE][LootRespawner] (PRIDummy) :: Item [19] is hard to place, performance drops: "Skirt_White"
+18:38:22.640 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:1029, Nominal:32677, Total in Map: 16077 at 1 (sec)
+18:38:22.640   tests:1067, repeats:0 fails:38, overtime:12896
+18:38:22.640 [CE][DynEvent] :: 33 types
+18:38:22.640 [00] AmbientHen
+18:38:22.640   Primary Spawner: "Ambient", active: yes, repeat: 1
+18:38:22.640 [01] AnimalBear
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [02] AnimalCow
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [03] AnimalDeer
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [04] AnimalGoat
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [05] AnimalPig
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [06] AnimalRoeDeer
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [07] AnimalSheep
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [08] AnimalWildBoar
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [09] AnimalWolf
+18:38:22.640   Primary Spawner: "Animal", active: yes, repeat: 1
+18:38:22.640 [10] InfectedArmy
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [11] InfectedCity
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [12] InfectedFirefighter
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [13] InfectedIndustrial
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [14] InfectedMedic
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [15] InfectedPolice
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [16] InfectedPrisoner
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [17] InfectedReligious
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [18] InfectedSolitude
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [19] InfectedVillage
+18:38:22.640   Primary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [20] ItemPlanks
+18:38:22.640   Primary Spawner: "Item", active: yes, repeat: 1
+18:38:22.640 [21] Loot
+18:38:22.640   Primary Spawner: "Loot", active: yes, repeat: 2
+18:38:22.640 [22] StaticHeliCrash
+18:38:22.640   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:38:22.640   Secondary Spawner: "Infected", active: yes, repeat: 1
+18:38:22.640 [23] StaticPoliceCar
+18:38:22.640   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:38:22.640 [24] TrajectoryConiferous
+18:38:22.640   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:38:22.640 [25] TrajectoryDeciduous
+18:38:22.640   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:38:22.640 [26] TrajectoryHumus
+18:38:22.640   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:38:22.640 [27] TrajectoryStones
+18:38:22.640   Primary Spawner: "Trajectory", active: yes, repeat: 1
+18:38:22.640 [28] VehicleCivilianSedan
+18:38:22.640   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:38:22.640 [29] VehicleHatchback02
+18:38:22.640   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:38:22.640 [30] VehicleOffroadHatchback
+18:38:22.640   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:38:22.640 [31] VehicleSedan02
+18:38:22.640   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:38:22.640 [32] VehicleCrSk_Land_Rover_Defender_110
+18:38:22.640   Primary Spawner: "Vehicle", active: yes, repeat: 1
+18:38:22.640 [CE][Hive] :: Initializing of spawners done.
+18:38:22.640 [CE][Hive] :: Init sequence finished.
+18:38:22.640 Player connect enabled
+18:38:22.999 Average server FPS: 0.06 (measured interval: 30 s)
+18:38:22.999 Used memory: 1457540 KB
+18:38:22.999 Players: 0 in total
+18:38:53.01 Average server FPS: 281.41 (measured interval: 30 s)
+18:38:53.01 Used memory: 1570361 KB
+18:38:53.01 Players: 0 in total
+18:39:24.112 Average server FPS: 472.50 (measured interval: 30 s)
+18:39:24.112 Used memory: 1572922 KB
+18:39:24.112 Players: 0 in total
+18:39:54.160 Average server FPS: 385.23 (measured interval: 30 s)
+18:39:54.160 Used memory: 1576988 KB
+18:39:54.160 Players: 0 in total
+18:40:24.318 Average server FPS: 567.27 (measured interval: 30 s)
+18:40:24.318 Used memory: 1580771 KB
+18:40:24.318 Players: 0 in total
+18:40:54.444 Average server FPS: 335.34 (measured interval: 30 s)
+18:40:54.444 Used memory: 1582707 KB
+18:40:54.444 Players: 0 in total
+18:41:24.633 Average server FPS: 563.75 (measured interval: 30 s)
+18:41:24.633 Used memory: 1584580 KB
+18:41:24.633 Players: 0 in total
+18:41:54.885 Average server FPS: 1085.98 (measured interval: 30 s)
+18:41:54.885 Used memory: 1589608 KB
+18:41:54.885 Players: 0 in total
+18:42:27.527 Average server FPS: 447.48 (measured interval: 30 s)
+18:42:27.527 Used memory: 1594081 KB
+18:42:27.527 Players: 0 in total
+18:42:57.654 Average server FPS: 1052.94 (measured interval: 30 s)
+18:42:57.654 Used memory: 1596088 KB
+18:42:57.654 Players: 0 in total
+18:43:27.687 Average server FPS: 1267.01 (measured interval: 30 s)
+18:43:27.687 Used memory: 1598368 KB
+18:43:27.687 Players: 0 in total
+18:43:57.688 Average server FPS: 1172.00 (measured interval: 30 s)
+18:43:57.688 Used memory: 1602411 KB
+18:43:57.688 Players: 0 in total
+18:44:27.705 Average server FPS: 1412.20 (measured interval: 30 s)
+18:44:27.705 Used memory: 1603220 KB
+18:44:27.705 Players: 0 in total
+18:44:57.707 Average server FPS: 1309.33 (measured interval: 30 s)
+18:44:57.707 Used memory: 1605474 KB
+18:44:57.707 Players: 0 in total
+18:45:27.896 Average server FPS: 1544.66 (measured interval: 30 s)
+18:45:27.896 Used memory: 1605999 KB
+18:45:27.896 Players: 0 in total
+18:45:57.944 Average server FPS: 2424.37 (measured interval: 30 s)
+18:45:57.944 Used memory: 1606670 KB
+18:45:57.944 Players: 0 in total
+18:46:27.946 Average server FPS: 2263.89 (measured interval: 30 s)
+18:46:27.946 Used memory: 1608771 KB
+18:46:27.946 Players: 0 in total
+18:46:57.947 Average server FPS: 2357.62 (measured interval: 30 s)
+18:46:57.947 Used memory: 1618745 KB
+18:46:57.947 Players: 0 in total
+18:47:27.949 Average server FPS: 2561.98 (measured interval: 30 s)
+18:47:27.949 Used memory: 1624335 KB
+18:47:27.949 Players: 0 in total
+18:47:57.950 Average server FPS: 2447.27 (measured interval: 30 s)
+18:47:57.950 Used memory: 1634125 KB
+18:47:57.950 Players: 0 in total
+18:48:27.952 Average server FPS: 2549.37 (measured interval: 30 s)
+18:48:27.952 Used memory: 1640610 KB
+18:48:27.952 Players: 0 in total
+18:48:58.16 Average server FPS: 2515.57 (measured interval: 30 s)
+18:48:58.16 Used memory: 1646934 KB
+18:48:58.16 Players: 0 in total
+18:49:28.02 Average server FPS: 2843.07 (measured interval: 30 s)
+18:49:28.02 Used memory: 1652276 KB
+18:49:28.02 Players: 0 in total
+18:49:58.04 Average server FPS: 2767.87 (measured interval: 30 s)
+18:49:58.04 Used memory: 1662741 KB
+18:49:58.04 Players: 0 in total
+18:50:28.52 Average server FPS: 2740.85 (measured interval: 30 s)
+18:50:28.52 Used memory: 1667309 KB
+18:50:28.52 Players: 0 in total
+18:50:58.178 Average server FPS: 2576.48 (measured interval: 30 s)
+18:50:58.178 Used memory: 1669606 KB
+18:50:58.178 Players: 0 in total
+18:51:28.336 Average server FPS: 2920.02 (measured interval: 30 s)
+18:51:28.336 Used memory: 1674100 KB
+18:51:28.336 Players: 0 in total
+18:51:58.385 Average server FPS: 3092.32 (measured interval: 30 s)
+18:51:58.385 Used memory: 1678082 KB
+18:51:58.385 Players: 0 in total
+18:52:28.371 Average server FPS: 3181.90 (measured interval: 30 s)
+18:52:28.371 Used memory: 1681162 KB
+18:52:28.371 Players: 0 in total
+18:52:58.450 Average server FPS: 3002.73 (measured interval: 30 s)
+18:52:58.450 Used memory: 1684724 KB
+18:52:58.450 Players: 0 in total
+18:53:28.436 Average server FPS: 2939.07 (measured interval: 30 s)
+18:53:28.436 Used memory: 1689986 KB
+18:53:28.436 Players: 0 in total
+18:53:58.516 Average server FPS: 901.15 (measured interval: 30 s)
+18:53:58.516 Used memory: 1693360 KB
+18:53:58.516 Players: 0 in total
+18:54:29.142 Average server FPS: 493.91 (measured interval: 30 s)
+18:54:29.142 Used memory: 1694724 KB
+18:54:29.142 Players: 0 in total
+18:55:00.144 Average server FPS: 419.61 (measured interval: 30 s)
+18:55:00.144 Used memory: 1696860 KB
+18:55:00.144 Players: 0 in total
+18:55:30.208 Average server FPS: 488.74 (measured interval: 30 s)
+18:55:30.208 Used memory: 1697064 KB
+18:55:30.208 Players: 0 in total
+18:56:04.179 Average server FPS: 358.26 (measured interval: 30 s)
+18:56:04.179 Used memory: 1698450 KB
+18:56:04.179 Players: 0 in total
+18:56:34.180 Average server FPS: 912.53 (measured interval: 30 s)
+18:56:34.180 Used memory: 1699437 KB
+18:56:34.180 Players: 0 in total
+18:57:05.197 Average server FPS: 895.62 (measured interval: 30 s)
+18:57:05.197 Used memory: 1704624 KB
+18:57:05.197 Players: 0 in total
+18:57:35.261 Average server FPS: 653.16 (measured interval: 30 s)
+18:57:35.261 Used memory: 1705821 KB
+18:57:35.261 Players: 0 in total
+18:58:05.263 Average server FPS: 1399.33 (measured interval: 30 s)
+18:58:05.263 Used memory: 1709074 KB
+18:58:05.263 Players: 0 in total
+18:58:35.436 Average server FPS: 2316.72 (measured interval: 30 s)
+18:58:35.436 Used memory: 1712024 KB
+18:58:35.436 Players: 0 in total
+18:59:05.422 Average server FPS: 3310.53 (measured interval: 30 s)
+18:59:05.422 Used memory: 1711865 KB
+18:59:05.422 Players: 0 in total
+18:59:35.424 Average server FPS: 5579.47 (measured interval: 30 s)
+18:59:35.424 Used memory: 1711992 KB
+18:59:35.424 Players: 0 in total
+19:00:05.425 Average server FPS: 5617.07 (measured interval: 30 s)
+19:00:05.425 Used memory: 1712158 KB
+19:00:05.425 Players: 0 in total
+19:00:35.427 Average server FPS: 5957.67 (measured interval: 30 s)
+19:00:35.427 Used memory: 1712157 KB
+19:00:35.427 Players: 0 in total
+19:01:05.428 Average server FPS: 6681.47 (measured interval: 30 s)
+19:01:05.428 Used memory: 1712832 KB
+19:01:05.428 Players: 0 in total
+19:01:35.430 Average server FPS: 6759.20 (measured interval: 30 s)
+19:01:35.430 Used memory: 1713146 KB
+19:01:35.430 Players: 0 in total
+19:02:05.431 Average server FPS: 7020.17 (measured interval: 30 s)
+19:02:05.431 Used memory: 1712862 KB
+19:02:05.431 Players: 0 in total
+19:02:35.433 Average server FPS: 7754.90 (measured interval: 30 s)
+19:02:35.433 Used memory: 1712809 KB
+19:02:35.433 Players: 0 in total
+19:03:05.435 Average server FPS: 7871.40 (measured interval: 30 s)
+19:03:05.435 Used memory: 1712473 KB
+19:03:05.435 Players: 0 in total
+19:03:35.436 Average server FPS: 7814.00 (measured interval: 30 s)
+19:03:35.436 Used memory: 1711977 KB
+19:03:35.436 Players: 0 in total
+19:04:05.422 Average server FPS: 7661.83 (measured interval: 30 s)
+19:04:05.422 Used memory: 1711817 KB
+19:04:05.422 Players: 0 in total
+19:04:21.298 [CE][Links] found 0 total links between groups, of 1
+19:04:21.298 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 14
+19:04:35.424 Average server FPS: 7752.43 (measured interval: 30 s)
+19:04:35.424 Used memory: 1711916 KB
+19:04:35.424 Players: 0 in total
+19:05:05.425 Average server FPS: 7924.90 (measured interval: 30 s)
+19:05:05.425 Used memory: 1711849 KB
+19:05:05.425 Players: 0 in total
+19:05:35.427 Average server FPS: 7829.67 (measured interval: 30 s)
+19:05:35.427 Used memory: 1711769 KB
+19:05:35.427 Players: 0 in total
+19:06:05.428 Average server FPS: 7757.03 (measured interval: 30 s)
+19:06:05.428 Used memory: 1711679 KB
+19:06:05.428 Players: 0 in total
+19:06:35.430 Average server FPS: 7987.63 (measured interval: 30 s)
+19:06:35.430 Used memory: 1711540 KB
+19:06:35.430 Players: 0 in total
+19:07:05.431 Average server FPS: 8312.27 (measured interval: 30 s)
+19:07:05.431 Used memory: 1711506 KB
+19:07:05.431 Players: 0 in total
+19:07:35.433 Average server FPS: 8128.23 (measured interval: 30 s)
+19:07:35.433 Used memory: 1711263 KB
+19:07:35.433 Players: 0 in total
+19:08:05.434 Average server FPS: 8310.77 (measured interval: 30 s)
+19:08:05.434 Used memory: 1711183 KB
+19:08:05.434 Players: 0 in total
+19:08:35.451 Average server FPS: 6242.29 (measured interval: 30 s)
+19:08:35.451 Used memory: 1711149 KB
+19:08:35.451 Players: 0 in total
+19:09:05.453 Average server FPS: 2531.77 (measured interval: 30 s)
+19:09:05.453 Used memory: 1710826 KB
+19:09:05.453 Players: 0 in total
+19:09:35.455 Average server FPS: 2983.30 (measured interval: 30 s)
+19:09:35.455 Used memory: 1710365 KB
+19:09:35.455 Players: 0 in total
+19:10:05.456 Average server FPS: 2735.53 (measured interval: 30 s)
+19:10:05.456 Used memory: 1710248 KB
+19:10:05.456 Players: 0 in total
+19:10:35.458 Average server FPS: 3416.70 (measured interval: 30 s)
+19:10:35.458 Used memory: 1710674 KB
+19:10:35.458 Players: 0 in total
+19:11:01.631 [CE][Links] found 0 total links between groups, of 2
+19:11:01.631 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:11:01.631 [CE][Links] found 0 total links between groups, of 3
+19:11:01.631 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:11:01.631 [CE][Links] found 0 total links between groups, of 4
+19:11:01.631 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:11:01.647 [CE][Links] found 0 total links between groups, of 5
+19:11:01.647 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:11:01.647 [CE][Links] found 0 total links between groups, of 6
+19:11:01.647 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:11:01.662 [CE][Links] found 0 total links between groups, of 7
+19:11:01.662 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:11:01.662 [CE][Links] found 0 total links between groups, of 8
+19:11:01.662 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:11:01.678 [CE][Links] found 0 total links between groups, of 9
+19:11:01.678 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:11:01.678 [CE][Links] found 0 total links between groups, of 10
+19:11:01.678 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:11:01.678 [CE][Links] found 0 total links between groups, of 11
+19:11:01.678 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:11:05.444 Average server FPS: 3615.60 (measured interval: 30 s)
+19:11:05.444 Used memory: 1710829 KB
+19:11:05.444 Players: 0 in total
+19:11:35.601 Average server FPS: 2781.09 (measured interval: 30 s)
+19:11:35.601 Used memory: 1711886 KB
+19:11:35.601 Players: 0 in total
+19:12:05.603 Average server FPS: 4818.67 (measured interval: 30 s)
+19:12:05.603 Used memory: 1711788 KB
+19:12:05.603 Players: 0 in total
+19:12:35.604 Average server FPS: 5379.10 (measured interval: 30 s)
+19:12:35.604 Used memory: 1711590 KB
+19:12:35.604 Players: 0 in total
+19:13:05.606 Average server FPS: 5352.63 (measured interval: 30 s)
+19:13:05.606 Used memory: 1712524 KB
+19:13:05.606 Players: 0 in total
+19:13:35.608 Average server FPS: 5498.47 (measured interval: 30 s)
+19:13:35.608 Used memory: 1712405 KB
+19:13:35.608 Players: 0 in total
+19:14:05.593 Average server FPS: 5816.03 (measured interval: 30 s)
+19:14:05.593 Used memory: 1712190 KB
+19:14:05.593 Players: 0 in total
+19:14:35.595 Average server FPS: 5737.53 (measured interval: 30 s)
+19:14:35.595 Used memory: 1712100 KB
+19:14:35.595 Players: 0 in total
+19:15:05.597 Average server FPS: 5781.53 (measured interval: 30 s)
+19:15:05.597 Used memory: 1711700 KB
+19:15:05.597 Players: 0 in total
+19:15:35.598 Average server FPS: 6172.27 (measured interval: 30 s)
+19:15:35.598 Used memory: 1711526 KB
+19:15:35.598 Players: 0 in total
+19:16:05.600 Average server FPS: 6621.47 (measured interval: 30 s)
+19:16:05.600 Used memory: 1712201 KB
+19:16:05.600 Players: 0 in total
+19:16:35.601 Average server FPS: 6989.47 (measured interval: 30 s)
+19:16:35.601 Used memory: 1711913 KB
+19:16:35.601 Players: 0 in total
+19:17:05.603 Average server FPS: 6553.33 (measured interval: 30 s)
+19:17:05.603 Used memory: 1711577 KB
+19:17:05.603 Players: 0 in total
+19:17:35.604 Average server FPS: 6763.03 (measured interval: 30 s)
+19:17:35.604 Used memory: 1711716 KB
+19:17:35.604 Players: 0 in total
+19:18:05.606 Average server FPS: 7483.00 (measured interval: 30 s)
+19:18:05.606 Used memory: 1712381 KB
+19:18:05.606 Players: 0 in total
+19:18:35.607 Average server FPS: 7430.50 (measured interval: 30 s)
+19:18:35.607 Used memory: 1712479 KB
+19:18:35.607 Players: 0 in total
+19:19:05.593 Average server FPS: 7564.40 (measured interval: 30 s)
+19:19:05.593 Used memory: 1712141 KB
+19:19:05.593 Players: 0 in total
+19:19:35.595 Average server FPS: 7778.63 (measured interval: 30 s)
+19:19:35.595 Used memory: 1711857 KB
+19:19:35.595 Players: 0 in total
+19:20:05.596 Average server FPS: 7880.53 (measured interval: 30 s)
+19:20:05.596 Used memory: 1711331 KB
+19:20:05.596 Players: 0 in total
+19:20:35.598 Average server FPS: 7758.40 (measured interval: 30 s)
+19:20:35.598 Used memory: 1710890 KB
+19:20:35.598 Players: 0 in total
+19:21:05.599 Average server FPS: 7876.60 (measured interval: 30 s)
+19:21:05.599 Used memory: 1710600 KB
+19:21:05.599 Players: 0 in total
+19:21:35.601 Average server FPS: 7905.97 (measured interval: 30 s)
+19:21:35.601 Used memory: 1710442 KB
+19:21:35.601 Players: 0 in total
+19:22:05.602 Average server FPS: 7701.23 (measured interval: 30 s)
+19:22:05.602 Used memory: 1710893 KB
+19:22:05.602 Players: 0 in total
+19:22:35.604 Average server FPS: 7946.27 (measured interval: 30 s)
+19:22:35.604 Used memory: 1710944 KB
+19:22:35.604 Players: 0 in total
+19:23:05.606 Average server FPS: 8244.23 (measured interval: 30 s)
+19:23:05.606 Used memory: 1711052 KB
+19:23:05.606 Players: 0 in total
+19:23:35.763 Average server FPS: 6434.42 (measured interval: 30 s)
+19:23:35.763 Used memory: 1711143 KB
+19:23:35.763 Players: 0 in total
+19:24:05.812 Average server FPS: 2504.43 (measured interval: 30 s)
+19:24:05.812 Used memory: 1710838 KB
+19:24:05.812 Players: 0 in total
+19:24:35.938 Average server FPS: 2253.26 (measured interval: 30 s)
+19:24:35.938 Used memory: 1710676 KB
+19:24:35.938 Players: 0 in total
+19:25:06.34 Average server FPS: 2583.19 (measured interval: 30 s)
+19:25:06.34 Used memory: 1710552 KB
+19:25:06.34 Players: 0 in total
+19:25:36.207 Average server FPS: 3364.83 (measured interval: 30 s)
+19:25:36.207 Used memory: 1710311 KB
+19:25:36.207 Players: 0 in total
+19:26:06.521 Average server FPS: 2374.44 (measured interval: 30 s)
+19:26:06.521 Used memory: 1710209 KB
+19:26:06.521 Players: 0 in total
+19:26:36.523 Average server FPS: 2683.60 (measured interval: 30 s)
+19:26:36.523 Used memory: 1710285 KB
+19:26:36.523 Players: 0 in total
+19:27:06.524 Average server FPS: 3854.47 (measured interval: 30 s)
+19:27:06.524 Used memory: 1710163 KB
+19:27:06.524 Players: 0 in total
+19:27:36.526 Average server FPS: 3250.63 (measured interval: 30 s)
+19:27:36.526 Used memory: 1709899 KB
+19:27:36.526 Players: 0 in total
+19:28:06.527 Average server FPS: 4749.77 (measured interval: 30 s)
+19:28:06.527 Used memory: 1710065 KB
+19:28:06.527 Players: 0 in total
+19:28:36.529 Average server FPS: 6200.53 (measured interval: 30 s)
+19:28:36.529 Used memory: 1710045 KB
+19:28:36.529 Players: 0 in total
+19:29:06.530 Average server FPS: 6134.77 (measured interval: 30 s)
+19:29:06.530 Used memory: 1709871 KB
+19:29:06.530 Players: 0 in total
+19:29:36.532 Average server FPS: 5930.00 (measured interval: 30 s)
+19:29:36.532 Used memory: 1709746 KB
+19:29:36.532 Players: 0 in total
+19:30:06.518 Average server FPS: 6185.47 (measured interval: 30 s)
+19:30:06.518 Used memory: 1709503 KB
+19:30:06.518 Players: 0 in total
+19:30:36.519 Average server FPS: 6201.70 (measured interval: 30 s)
+19:30:36.519 Used memory: 1709443 KB
+19:30:36.519 Players: 0 in total
+19:31:06.521 Average server FPS: 6915.07 (measured interval: 30 s)
+19:31:06.521 Used memory: 1709499 KB
+19:31:06.521 Players: 0 in total
+19:31:36.522 Average server FPS: 7019.77 (measured interval: 30 s)
+19:31:36.522 Used memory: 1709387 KB
+19:31:36.522 Players: 0 in total
+19:32:06.524 Average server FPS: 7447.43 (measured interval: 30 s)
+19:32:06.524 Used memory: 1709309 KB
+19:32:06.524 Players: 0 in total
+19:32:36.525 Average server FPS: 7148.33 (measured interval: 30 s)
+19:32:36.525 Used memory: 1711147 KB
+19:32:36.525 Players: 0 in total
+19:33:06.527 Average server FPS: 7448.93 (measured interval: 30 s)
+19:33:06.527 Used memory: 1710964 KB
+19:33:06.527 Players: 0 in total
+19:33:32.575 [CE][Links] found 0 total links between groups, of 12
+19:33:32.575 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 11
+19:33:32.575 [CE][Links] found 0 total links between groups, of 13
+19:33:32.575 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 12
+19:33:36.529 Average server FPS: 7095.77 (measured interval: 30 s)
+19:33:36.529 Used memory: 1710959 KB
+19:33:36.529 Players: 0 in total
+19:34:06.530 Average server FPS: 7415.40 (measured interval: 30 s)
+19:34:06.530 Used memory: 1710851 KB
+19:34:06.530 Players: 0 in total
+19:34:36.532 Average server FPS: 7413.47 (measured interval: 30 s)
+19:34:36.532 Used memory: 1710917 KB
+19:34:36.532 Players: 0 in total
+19:35:06.518 Average server FPS: 7400.90 (measured interval: 30 s)
+19:35:06.518 Used memory: 1711163 KB
+19:35:06.518 Players: 0 in total
+19:35:36.519 Average server FPS: 7380.57 (measured interval: 30 s)
+19:35:36.519 Used memory: 1711020 KB
+19:35:36.519 Players: 0 in total
+19:36:06.521 Average server FPS: 7375.07 (measured interval: 30 s)
+19:36:06.521 Used memory: 1710970 KB
+19:36:06.521 Players: 0 in total
+19:36:36.522 Average server FPS: 7502.07 (measured interval: 30 s)
+19:36:36.522 Used memory: 1710877 KB
+19:36:36.522 Players: 0 in total
+19:37:06.524 Average server FPS: 7499.30 (measured interval: 30 s)
+19:37:06.524 Used memory: 1711013 KB
+19:37:06.524 Players: 0 in total
+19:37:36.525 Average server FPS: 7249.03 (measured interval: 30 s)
+19:37:36.525 Used memory: 1711158 KB
+19:37:36.525 Players: 0 in total
+19:38:06.527 Average server FPS: 7849.73 (measured interval: 30 s)
+19:38:06.527 Used memory: 1711300 KB
+19:38:06.527 Players: 0 in total
+19:38:36.75  --- Termination successfully completed --- 
+
